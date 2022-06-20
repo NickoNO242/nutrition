@@ -91,6 +91,66 @@ margin-block-start: 15%;
     background-color:white;
     color: #23c9e2;
 }
+.icono_icon{
+    
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 80px;
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    padding: 0px 100px;
+
+}
+
+.container-card{
+width: 95vw;
+display: flex;
+margin:auto;
+
+}
+.card{
+
+box-shadow: 2px -2px 24px 4px rgba(0,0,0,0.75);
+border-radius: 43px 43px 43px 43px;
+display: flex;
+width: 30vw;
+margin: auto;
+background-color:rgb(255, 255, 255);
+margin-block-start: 10%;
+padding: 20px;
+
+}
+.center-card{
+margin-block-start: 7%;
+}
+.text{
+font-size: 15px;
+color: black;
+font-weight: bold;
+}
+.img-chatarra{
+
+box-shadow: 2px -2px 24px 4px rgba(0,0,0,0.75);
+border-radius: 43px 43px 43px 43px;
+display: flex;
+width: 30vw;
+margin: auto;
+background-color:rgb(255, 255, 255);
+margin-block-start: 10%;
+padding: 20px;
+}
+
 @media(min-width:900px){
     .main-form{
         margin-block-start: 8%;
